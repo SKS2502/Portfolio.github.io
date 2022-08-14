@@ -17,12 +17,9 @@
     <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
     <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
     <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
-
     <link rel="stylesheet" href="css/style-switcher.css">
 
-
-
-
+<!-- CSS only -->
     <!--======style switcher=================-->
 
    <!--- <link rel="stylesheet" href="css/style-switcher.css">-->
@@ -84,9 +81,9 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="hamburger-menu">
+                    <!-- <div class="hamburger-menu">
                         <div class="bar"></div>
-                    </div>
+                    </div> -->
                 </div>
             </nav>
         <div class="header-content">
@@ -94,7 +91,7 @@
             <div class="column-1">
 <!--               <h1 class="header-tittle">Prasoon Kumar</h1>  -->
                 <h1 class="hello">My name is <span class="name">Prasoon Kumar</span> </h1>
-                <h2 class="imtheone">I' m a   <span class="typing">Researcher</span> </h2> 
+                <h2 class="imtheone">I' m a   <span class="animation">Researcher</span> </h2> 
                 
                 <p class="text">
                 My name is prasoon kumar, and I am currently working as
@@ -171,24 +168,19 @@
 
     <!--******************* Start of My Skill**************************** -->
     <section class="skill-section" id="skills">
+
+
+        <img src="./img/points3.png" class="skill-img" alt=""/>
+
     <div class="section-header">
-<!--
-        <div class="skill-poi">
-            <img src="./img/points3.png" class="some mota-1">
-            <img src="./img/points3.png" class="some mota-2">
-        
-        </div>
-    -->
+
+
 
         <h3 class="title" data-title="Let me help you">Skills</h3>
 
     </div>
 
 
-<!-- <div class="skill-head">
-    <h2>my<span>skills</span></h2>
-    <p>let me help you</p>
-</div>-->
 <div class="skill-main">
 
 <div class="skill-bar">
@@ -513,21 +505,23 @@ Youtube Video on project presentation - Video Presentation
 
                 </div>
             </div>
+            <form action="https://script.google.com/macros/s/AKfycbxgiHQ6wcyrYWV73a7mTvm2g88nCf8-DnnOmr2oyJVC5LHTu81kBuaIomuk7RgzX6gt/exec" method="post">
             <div class="contact-form">
                 <h3 class="title">Contact me</h3>
                 <div class="row">
-                    <input type="text" class="contact-input" placeholder="First name">
-                    <input type="text" class="contact-input" placeholder="Last name">
+                    <input type="text" name="name" class="contact-input" placeholder="Full Name">
+                    <input type="text"  name="nationality"  class="contact-input" placeholder="Nationality">
                 </div>
                 <div class="row">
-                    <input type="text" class="contact-input" placeholder="Phone">
-                    <input type="email" class="contact-input" placeholder="Email">
+                    <input type="text" name="phone" class="contact-input" placeholder="Phone">
+                    <input type="email" name="email" class="contact-input" placeholder="Email">
                 </div>
 
                 <div class="row">
                     <textarea name="message" class="contact-input textarea" placeholder="Message"></textarea>
                 </div>
-                <a href="#" class="btn">Send</a>
+                <input type="submit" value="Send" class="btn" id="submit"/>
+                <!-- <a href="#" type="submit" class="btn">Send</a> -->
 
                 <div class="back-btn-wrap">
                     <a href="#" class="back-btn">
@@ -536,6 +530,7 @@ Youtube Video on project presentation - Video Presentation
                 </div>
 
             </div>
+        </form>
         </div>
     </div>
 </section>
@@ -560,10 +555,10 @@ Youtube Video on project presentation - Video Presentation
 
 </div>
 <!--***************  Style switcher End********** -->
-<script src="./style-switcher.js"></script>
-<script src="./app.js"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+<script src="./app.js"></script>
+<script src="./style-switcher.js"></script>
+
 
 <!--***************** footer style **************-->
 

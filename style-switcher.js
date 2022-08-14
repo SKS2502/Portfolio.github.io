@@ -50,10 +50,5 @@ window.addEventListener("load", () => {
 
 /*****************************  typing animation ************************** */
 
-var typed=new Typed(".typing",{
-    Strings:["Researcher","Developer","Designer","Programmer"],
-    typeSpeed:100,
-    BackSpeed:60,
-    loop:true
-})
+
 

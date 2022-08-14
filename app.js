@@ -1,4 +1,6 @@
-/*const hamburger_menu=document.querySelector(".hamburger-menu");
+
+/*
+const hamburger_menu=document.querySelector(".hamburger-menu");
 const navbar = document.querySelector(".header nav");
 const links = document.querySelectorAll(".links a");
 
@@ -16,12 +18,19 @@ hamburger_menu.addEventListener("click",() => {
     }else{
         closeMenu();
     }
-});*/
+});
+*/
 
 
 /* ===========  typing animation  ===========================*/
+/*var Typed = require(typed.min.js);*/
 
-
+var typed = new Typed(".animation",{
+    strings:["","Researcher","Developer","Programmer","Designer",],
+    typeSpeed:100,
+    BackSpeed:60,
+    loop:true
+})
 
 
 
